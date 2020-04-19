@@ -1,7 +1,7 @@
 {
   "name": "mydiscord",
   "version": "1.0.0",
-  "description": "",
+  "description": "[Electron] To view specific channel of Discord.",
   "main": "index.js",
   "scripts": {
     "build": "cat url | xargs nativefier --name MyDiscord --icon icon.png --inject ./inject.js"
