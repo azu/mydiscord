@@ -1,0 +1,6 @@
+MyDiscord-*
+node_modules
+.idea
+
+# Discord first view URL
+url
