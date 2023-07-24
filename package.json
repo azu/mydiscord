@@ -4,12 +4,12 @@
   "description": "[Electron] To view specific channel of Discord.",
   "main": "index.js",
   "scripts": {
-    "build": "cat url | xargs -I{} nativefier {} --name MyDiscord --icon icon.png --inject ./inject.js"
+    "build": "cat url | xargs -I{} sh -c 'nativefier {} --name MyDiscord --icon icon.png --inject ./inject.js'"
   },
   "keywords": [],
   "author": "azu",
   "license": "MIT",
   "devDependencies": {
-    "nativefier": "^45.0.5"
+    "nativefier": "^50.1.1"
   }
 }
